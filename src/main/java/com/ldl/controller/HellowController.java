@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 //@Controller
 @RestController
 public class HellowController {
-    //请求页面
+    //请求web页面
     @RequestMapping("/hellow")
     public String hellowSpringBoot(){
         return "hellow";
